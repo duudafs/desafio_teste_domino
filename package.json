@@ -1,0 +1,34 @@
+{
+  "name": "desafio_teste_domino",
+  "version": "1.0.0",
+  "description": "Casos de teste em JavaScript (Jest) para o Dominó com partida para 2 jogadores",
+  "main": "src/domino.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duudafs/desafio_teste_domino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duudafs/desafio_teste_domino/issues"
+  },
+  "homepage": "https://github.com/duudafs/desafio_teste_domino#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}
